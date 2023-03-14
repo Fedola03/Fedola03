@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    width: 70vw;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* checking the hover pseudo selector */
+
+.fa-facebook {
+    font-size: 10em;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+.fa-instagram {
+    font-size: 10em;
+}
+
+.fa-instagram:hover{
+    padding: 0 10px 0 10px;
+    color: white;
+    background: linear-gradient(#feda75,  #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.fa-twitter {
+    font-size: 10em;
+}
+
+a  .fa-twitter:hover{
+    margin-top: 20px;
+    color: rgb(70, 124, 241);
+}
+
+.fa-brands:active{
+    color: green;
+}
+
+/* E no easy */
+/* STYLES  FOR THE NAVIGATION BAR */
+
+#div2 {
+    background-color: #962fbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    position: relative;
+}
+
+#navbar {
+    background-color: #fa7e1e;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 30px;
+}
+
+.nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link:hover {
+    background-color: #4f5bd5;
+}
+
+.box-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+  } 
