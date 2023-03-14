@@ -7,6 +7,11 @@ body {
 
 /* checking the hover pseudo selector */
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .fa-facebook {
     font-size: 10em;
 }
@@ -20,9 +25,7 @@ body {
 }
 
 .fa-instagram:hover{
-    padding: 0 10px 0 10px;
-    color: white;
-    background: linear-gradient(#feda75,  #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    color: rgb(177, 62, 62)
 }
 
 .fa-twitter {
@@ -41,7 +44,7 @@ a  .fa-twitter:hover{
 /* STYLES  FOR THE NAVIGATION BAR */
 
 #div2 {
-    background-color: #962fbf;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +53,7 @@ a  .fa-twitter:hover{
 }
 
 #navbar {
-    background-color: #fa7e1e;
+    background-color: white;
     width: 300px;
     height: 100%;
     display: flex;
